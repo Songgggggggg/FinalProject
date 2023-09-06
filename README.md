@@ -36,14 +36,13 @@ Component List:
 - icm20948.c: Read accelerometer(unit: g), gyroscope(units: dps) and magnetometer(units: uT) data
 - time.c: Get UTC time, current local UK time, elapsed time
 - main.c: Combined time data and sensor data, and sent to USB VCP for future analysis
-
+- quadspi.c The driver of flash memory
+- main.c Batch read and write
 
 #### STM32CubeIDE SPI configuration
 ![image](https://github.com/Songgggggggg/FinalProject/blob/main/images/stm32cube%20SPI%20configuration.jpg)
 
 #### STM32CubeIDE QSPI configuration
-- quadspi.c the driver of flash memory
-- main.c batch read and write
 ![image](https://github.com/Songgggggggg/FinalProject/blob/main/images/qspi.PNG)
 
 #### STM32CubeIDE USB + USB Device configuration
